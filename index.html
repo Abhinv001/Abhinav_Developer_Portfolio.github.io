@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhinav - Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        background-color: rgb(55, 11, 81);
+        color: white;
+      }
+
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 60px;
+        background-color: rgb(18, 18, 62);
+      }
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+      nav ul li {
+        list-style: none;
+        margin: 23px;
+      }
+
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+      }
+      nav ul li a:hover {
+        color: rgb(206, 82, 240);
+        font-size: 1.1rem;
+      }
+
+      main hr {
+        border: 0;
+        background: rgb(202, 137, 239);
+        height: 1.2px;
+        margin: 30px 70px;
+      }
+
+      .left {
+        font-size: 1.5rem;
+      }
+
+      .firstSection {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 10px 50px;
+      }
+
+      .firstSection div {
+        width: 100%;
+        /* background-color: red; */
+      }
+
+      .leftSection {
+        /* background-color: goldenrod; */
+        margin: 30px;
+        font-size: 4rem;
+        width: 50%;
+      }
+
+      .leftSection .button {
+        padding: 50px 0;
+      }
+
+      .leftSection .btn {
+        padding: 12px;
+        background: #1e2167;
+        color: white;
+        border: 2px solid white;
+        border-radius: 6px;
+        font-size: 20px;
+        cursor: pointer;
+      }
+
+    .leftSection .btn:hover {
+        background: #8935b6;
+        color: white;
+      }
+
+      .leftSection .btn a {
+        color: white;
+      }
+
+      .rightSection {
+        /* background-color: goldenrod; */
+        margin: 30px;
+      }
+      .rightSection img {
+        /* width: 60%; */
+        margin: 30px;
+        width: 100%;
+      }
+
+      .purple {
+        color: #9b0dd8;
+      }
+
+      .text-gray {
+        color: gray;
+      }
+
+      #element {
+        color: #9b0dd8;
+      }
+
+      .secondsecction {
+        max-width: 90vw;
+        margin: auto;
+        height: 80vh;
+      }
+
+      .secondsecction hi {
+        font-size: 2rem;
+      }
+
+      .secondsecction .box {
+        background: white;
+        width: 85vw;
+        height: 2px;
+        margin: 90px;
+        display: flex;
+      }
+
+      .secondsecction .vertical {
+        height: 50px;
+        width: 1px;
+        background-color: white;
+        margin: 0 90px;
+      }
+
+      .image-top {
+        width: 60px;
+        position: relative;
+        top: -80px;
+        left: -9px;
+      }
+
+      .vertical-year {
+        position: relative;
+        top: 15px;
+        width: 180px;
+        color: grey;
+      }
+
+      .vertical-title {
+        position: relative;
+        top: 15px;
+        width: 180px;
+      }
+
+      .vertical-desc {
+        position: relative;
+        top: 20px;
+        width: 150px;
+        font-size: 12px;
+        color: rgb(187, 156, 17);
+      }
+
+      footer {
+        background-color: rgb(18, 18, 62);
+        width: 100%;
+      }
+
+      .footer > div {
+        width: 230px;
+      }
+
+      .footer {
+        display: flex;
+        padding: 15px 100px;
+        justify-content: space-evenly;
+      }
+      footer .footer-second ul li {
+        list-style: none;
+        /* margin: 10px; */
+        
+      }
+      footer .footer-second ul li a{
+        /* text-decoration: none; */
+        color: white;
+      }
+
+      footer .footer-rights {
+        text-align: center;
+        color: rgb(203, 166, 166);
+        padding: 12px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Abhinav Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="project.html">Project</a></li>
+            <li><a href="contact.html">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="firstSection">
+        <div class="leftSection">
+          Hi,
+          <div>My name is <span class="purple">Abhinav</span></div>
+          <div>and I am passionate</div>
+          <span id="element"></span>
+          <div class="button">
+            <button class="btn"><a href="doc\Abhinav_SDE_Resume.pdf.pdf">Download Resume</a></button>
+            <button class="btn"><a href="https://github.com/Abhinv001">Visit Github</a></button>
+          </div>
+        </div>
+        <div class="rightSection">
+          <img src="image\cod3.png" alt="image" >
+        </div>
+      </section>
+      <hr>
+      <section class="secondsecction">
+        <span class="text-gray">What i have done so far</span>
+        <h1>Skill Experance</h1>
+        <div class="box">
+          <div class="vertical">
+            <img class="image-top" src="image/html.png" alt="" />
+            <div class="vertical-title">HTML Dveloper</div>
+            <div class="vertical-year">(2020-2023)</div>
+            <div class="vertical-desc">
+              &starf;&starf;&starf;&starf;&starf;&starf;&starf;&starf;&starf;
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="image/css.png" alt="" />
+            <div class="vertical-title">CSS Dveloper</div>
+            <div class="vertical-year">(2020-2023)</div>
+            <div class="vertical-desc">
+              &starf;&starf;&starf;&starf;&starf;&starf;&starf;&starf;&starf;
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="image/js.png" alt="" />
+            <div class="vertical-title">JS Dveloper</div>
+            <div class="vertical-year">(2022-2023)</div>
+            <div class="vertical-desc">
+              &starf;&starf;&starf;&starf;&starf;&starf;&starf;
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="image/php.png" alt="" />
+            <div class="vertical-title">PHP Dveloper</div>
+            <div class="vertical-year">(2021-2023)</div>
+            <div class="vertical-desc">
+              &starf;&starf;&starf;&starf;&starf;&starf;&starf;
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="image/mysql.png" alt="" />
+            <div class="vertical-title">MySQL Dveloper</div>
+            <div class="vertical-year">(2021-2023)</div>
+            <div class="vertical-desc">
+              &starf;&starf;&starf;&starf;&starf;&starf;&starf;&starf;&starf;
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="image/wp.png" alt="" />
+            <div class="vertical-title">WordPress Dveloper</div>
+            <div class="vertical-year">(2022-2023)</div>
+            <div class="vertical-desc">
+              &starf;&starf;&starf;&starf;&starf;&starf;&starf;&starf;&starf;
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="image/rjs.png" alt="" />
+            <div class="vertical-title">React.JS Framwork</div>
+            <div class="vertical-year">(2023-Stil)</div>
+            <div class="vertical-desc">
+              &starf;&starf;&starf;&starf;&starf;
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer">
+        <div class="footer-first">
+          <h3>Abhinav Developer Portfolio</h3>
+        </div>
+        <div class="footer-second">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="project.html">Project</a></li>
+            <li><a href="contact.html">Contact Me</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-rights">
+        Copyright &copy;|Abhinav Developer Portfolio|All Rights Reserved
+      </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+      var typed = new Typed("#element", {
+        strings: [
+          "WordPress Developer.",
+          "Web Designer.",
+          "PHP Developer.",
+          "Web Developer.",
+        ],
+        typeSpeed: 80,
+        loop: true,
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Abhinav - Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        background-color: rgb(55, 11, 81);
+        color: white;
+      }
+
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 60px;
+        background-color: rgb(18, 18, 62);
+        width: 100%;
+      }
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+      nav ul li {
+        list-style: none;
+        margin: 23px;
+      }
+
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+      }
+      nav ul li a:hover {
+        color: rgb(206, 82, 240);
+        font-size: 1.1rem;
+      }
+
+      hr {
+        border: 0;
+        background: rgb(202, 137, 239);
+        height: 1.2px;
+        margin: 10px;
+      }
+
+     
+      .firstSection {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 40px 50px;
+      }
+
+      .firstSection div {
+        width: 100%;
+        /* background-color: red; */
+        text-align: justify;
+      }
+
+      .secondsection {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 10px 50px;
+      }
+
+      .secondsection div {
+        width: 100%;
+        /* background-color: red; */
+        text-align: justify;
+      }
+
+      .thirdsection {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 10px 50px;
+      }
+
+      .thirdsection div {
+        width: 100%;
+        /* background-color: red; */
+        text-align: justify;
+      }
+
+      .leftSection {
+        /* background-color: goldenrod; */
+        margin: 30px;
+        font-size: 2rem;
+        width: 50%;
+      }
+
+      .leftSection .button {
+        padding: 50px 0;
+      }
+
+      .leftSection .btn {
+        padding: 12px;
+        background: #1e2167;
+        color: white;
+        border: 2px solid white;
+        border-radius: 6px;
+        font-size: 20px;
+        cursor: pointer;
+      }
+
+      .leftSection .btn:hover {
+        background: #8935b6;
+        color: white;
+      }
+
+      .leftSection .btn a {
+        color: white;
+      }
+
+      .rightSection {
+        /* background-color: goldenrod; */
+        margin: 30px;
+      }
+      .rightSection img {
+        /* width: 60%; */
+        margin: 30px;
+        width: 100%;
+        border: 2px solid red;
+      }
+
+      .text-gray {
+        color: rgb(185, 161, 161);
+        font-size: 1.5rem;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Project</div>
+        <div class="right">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="contact.html">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <section class="firstSection">
+      <div class="leftSection">
+        <h1><u>Fake News Detection</u></h1>
+        <span class="text-gray"
+          >(Using Machine Learning models with Python)</span
+        >
+        <p>
+          Designed Fake News Detection using Machine Learning models with Python
+          through internship. Datasets and compared accuracies up to 98% to
+          analyze various algorithms-Regression, KNN, Decision Tree, SVM
+          (Python) and also use HTML CSS, Bootstrsp for interface design.
+        </p>
+        <div class="button">
+          <button class="btn">
+            <a href="doc\Fake news Detection report.pdf">Project Report</a>
+          </button>
+          <button class="btn">
+            <a href="image\Abhinav_page-0001.jpg">Certificate</a>
+          </button>
+        </div>
+      </div>
+      <div class="rightSection">
+        <img src="image\ml.jpg" alt="image" />
+      </div>
+    </section>
+
+    <hr />
+    <section class="secondsection">
+      <div class="leftSection">
+        <h1><u>Travel Management System</u></h1>
+        <span class="text-gray"
+          >(Web Application using HTML, CSS, js, PHP, MySql)</span
+        >
+        <p>
+          Developed a web page using the front end, for booking trips to
+          respected places. Database creation and stored SQL to connect server.
+        </p>
+        <div class="button">
+          <button class="btn">
+            <a href="doc\tms.pdf">Project Report</a>
+          </button>
+          <!-- <button class="btn">
+            <a href="https://github.com/Abhinv001">Certificate</a>
+          </button> -->
+        </div>
+      </div>
+      <div class="rightSection">
+        <img src="image\tms.png" alt="image" />
+      </div>
+    </section>
+    <hr />
+    <section class="thirdsection">
+      <div class="leftSection">
+        <h1><u>Study Metarial</u></h1>
+        <span class="text-gray">(Educational website / Web pages)</span>
+        <p>
+          We have developed a WordPress landing web page for educational purpose
+          website. Database creation and stored MySQL to connect server.
+          WordPress, Elementor, plugins, templates, etc. website hosting using
+          GitHub.
+        </p>
+        <div class="button">
+          <button class="btn">
+            <a href="https://abhinv001.github.io/studymaterial01/home-2/"
+              >Visit Project</a
+            >
+          </button>
+          <!-- <button class="btn">
+            <a href="https://github.com/Abhinv001">Certificate</a>
+          </button> -->
+        </div>
+      </div>
+      <div class="rightSection">
+        <img src="image\ml.jpg" alt="image" />
+      </div>
+    </section>
+  </body>
+</html>
